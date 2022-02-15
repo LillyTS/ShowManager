@@ -1,0 +1,20 @@
+{
+  "name": "Show Manager",
+  "description": "Manages shows",
+  "version": "1.0",
+  "manifest_version": 3,
+  "background": {
+    "service_worker": "background.js"
+  },
+  "permissions": ["storage","clipboardRead","clipboardWrite"],
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon":  "/tvicon.png"
+  },
+  "icons": {
+    "16": "/tvicon.png",
+    "32": "/tvicon.png",
+    "48": "/tvicon.png",
+    "128": "/tvicon.png"
+  }
+}

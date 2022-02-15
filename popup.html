@@ -1,0 +1,33 @@
+<html>
+
+<head>
+    <title>Show Manager</title>
+    <link rel="stylesheet" type="text/css" href="popup.css" />
+</head>
+
+<body>
+    <div id="app">
+        <div class="tab">
+            <button class="tablinks" id="addnewshow">New Show</button>
+            <button class="tablinks" id="yourshows">Your Shows</button>
+        </div>
+        <div id="yourshowstab" class="tabcontent">
+            <div class="search">
+                <input type="text" id="search" placeholder="Search...">
+            </div>
+            <ul id ="showslist">
+            </ul>
+        </div>
+        <div id="addnewshowtab" class="tabcontent">
+            <input type="text" id="showname" placeholder="Show Name">
+            <input type="text" id="seasonnumber" placeholder="Season Number">
+            <input type="text" id="episodenumber" placeholder="Episode Number">
+            <button id="confirm">ok</button>
+        </div>
+    </div>
+    <script src="popup.js"></script>
+    <script src="storage.js"></script>
+
+</body>
+
+</html>
