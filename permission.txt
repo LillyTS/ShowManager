@@ -1,0 +1,9 @@
+"background"
+
+"clipboardRead"	
+
+"clipboardWrite"
+
+"declarativeNetRequestFeedback"	Grants the extension access to events and methods within the chrome.declarativeNetRequest API which return information on declarative rules matched.
+
+"declarativeWebRequest"	Gives your extension access to the chrome.declarativeWebRequest API.
